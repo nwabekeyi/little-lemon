@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import { Fragment } from 'react';
 import './App.css';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <p>little lemon to start working soon</p>
-    </div>
+    <Fragment className="App">
+      <Nav />
+      <Main />
+      <Footer />
+    </Fragment>
   );
 }
 
