@@ -1,0 +1,47 @@
+/* Markazi font */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+/* Karla font */
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+nav{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+}
+#nav-link{
+    display:flex;
+    list-style-type: none;
+    font-weight:900;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 9em;
+    font-size: 0.9em;
+    }
+.logo{
+    width: 10vw;
+    height: 7vh;
+    margin-left: 9.3em;
+}
+.nav-links{
+    margin-right: 35px;
+    font-family: 'Karla', sans-serif;
+}
+.nav-links:hover{
+    color: #495E55;
+    border-bottom: #F4CE14 solid 2px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.nav-links:active{
+    color: white;
+    background-color: #495E55;
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}

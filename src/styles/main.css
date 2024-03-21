@@ -1,0 +1,104 @@
+
+
+.intro {
+    background-color: #495E55;
+    display: flex;
+    height: 17em;
+    justify-content: center;
+}
+.intro-container{
+    width: 45em;
+    display: flex;
+    justify-content: stretch;
+}
+.intro-image {
+    height: 18.5em;
+    position: relative;
+    top: 4vh;
+    left: 18.8em;
+    width: 15em;
+    border-radius: 10px;
+
+}
+
+.page-intro {
+    width: 11em;
+    margin-top: -25px;
+}
+
+.page-intro > h2 {
+    width: 100%;
+    overflow-wrap: break-word; /* Changed from overflow-y */
+    color: white;
+    margin-top: -55px;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 24px;
+
+}
+
+.page-intro > h1 {
+    color: #F4CE14;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 2.5em;
+}
+.page-intro > h3 {
+    width: 100%;
+    overflow-wrap: break-word; /* Changed from overflow-y */
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-bottom: 3px;
+
+}
+    .reserve-table{
+        padding: 10px 20px;
+        background-color: #F4CE14;
+        border: none;
+        font-size: 0.8em;
+        font-weight: 700;
+        border-radius: 10px;
+        font-family: 'Karla', sans-serif;
+
+    }
+    .week-special{
+        width: 45em;
+        margin: 5em auto 5em auto;
+    }
+    .order-online{
+        padding: 0px 35px !important;
+        background-color: #F4CE14;
+        border: none;
+        font-size: 0.8em;
+        font-weight: 700;
+        border-radius: 5px;
+        font-family: 'Karla', sans-serif;
+        height: 40px;
+        margin-right: 20px;
+
+    }
+    .special-order{
+        display: flex;
+        justify-content: space-between;
+    }
+    .week{
+        font-size: 2em;
+        font-weight: 700;
+        margin: 0;
+    }
+    .menu{
+        display: flex !important;
+        flex-direction: row;
+        width: 45em;
+        margin: auto;
+        justify-content: space-between;
+        border: #495E55 2px solid;
+    }
+    .menu-image{
+        width: 2em;
+        height: 2em;
+    }
+    .menu-description{
+        overflow-wrap: break-word; /* Changed from overflow-y */
+
+    }
