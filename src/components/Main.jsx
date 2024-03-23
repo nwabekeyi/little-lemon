@@ -4,6 +4,9 @@ import restauranfood from '../assets/restauranfood.jpg';
 import greekSalad from '../assets/greekSalad.jpg';
 import Bruchetta from '../assets/Bruchetta.png';
 import lemonDessert from '../assets/lemonDessert.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'
+import Testimonial from './Testimonials'
 
 function Main() {
     const menuData = [
@@ -53,17 +56,20 @@ function Main() {
                             <img src={item.image} alt={item.name} className='menu-image' />
                             <div className="details">
                                 <div className='name-price'>
-                                    <h2>{item.name}</h2>
-                                    <p>{item.price}</p>
+                                    <h2 className='item-name'>{item.name}</h2>
+                                    <p className='item-price'>{item.price}</p>
                                 </div>
                                 <p className='menu-description'>{item.description}</p>
+                                <div className='delivery'>
+                                    <p className='order'>Order a Delivery</p>
+                                    <FontAwesomeIcon icon={faMotorcycle} className="deliveryBike"/>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </article>
             </section>
-            <section className="testimonial"></section>
-            <section className="about"></section>
+            <Testimonial />
         </>
     );
 }

@@ -1,0 +1,42 @@
+.container{
+    background-color: #EDEFEE;
+    margin: 0px auto 10px auto;
+    height: 31em;
+    padding-top: 5px;
+}
+.container > h2{
+
+    margin-left: 570px;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0;
+
+}
+
+.testimonial-image{
+    width: 15em;
+    height: 11em;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+.testimonials{
+    background-color: #495E55;
+    width: 20em;
+    height: 22em;
+    padding-top: 1px;
+}
+.testimonial-name{
+    margin: 10px 0 5px 115px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 1.5em;
+
+}
+.testimonial-message{
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 1em;
+    margin-right: 10px;
+
+}
